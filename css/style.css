@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.block {
+    background: lightblue;
+    margin: 10px 0;
+}
+
+.inline {
+    background: pink;
+}
+
+.box {
+    background: orange;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.float-box {
+    width: 100px;
+    height: 100px;
+    background: teal;
+    color: white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear-box {
+    clear: both;
+    background: gray;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.overflow-box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.relative {
+    position: relative;
+    background: lightgreen;
+    height: 150px;
+}
+
+.absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background: yellow;
+}
